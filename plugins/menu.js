@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'github.com/IkhsanStore', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://github.com/IkhsanStore', 'Website', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
@@ -175,7 +175,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
-                                    url: 'github.com/IkhsanStore'
+                                    url: 'https://github.com/IkhsanStore'
                                 }
                             }, {
                                 quickReplyButton: {
