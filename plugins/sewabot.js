@@ -13,29 +13,30 @@ let handler = async (m, { conn }) => {
   description: ` *• SEWA BOT & UP TO PREMIUM •*
         
 1. Grup / 30 Hari
-Rp. 15.000 gopay
-Rp. 15.000 gopay
+Rp. 20.000 gopay
+Rp. 20.000 gopay
 
 2. Premium / 30 Hari
-Rp. 10.000 gopay
-Rp. 10.000 gopay
+Rp. 15.000 gopay
+Rp. 15.000 gopay
 
-3. Permanen
-Rp. 20.000 gopay
-Rp. 20.000 gopay
+3. Permanen + Grup
+Rp. 40.000 gopay
+Rp. 40.000 gopay
 
 4. Premium + Grup / 30 Hari
-Rp. 25.000 gopay
-Rp. 25.000 gopay
-
-5. Premium + Permanen + Grup
-Rp. 45.000 gopay
-Rp. 45.000 gopay
-
-6. Permanen + Grup
 
 Rp. 30.000 gopay
 Rp. 30.000 gopay
+
+5. Grup / 14 hari
+Rp. 10.000 gopay
+Rp. 10.000 gopay
+
+6. Premium + Grup / 14 Hari
+
+Rp. 20.000 gopay
+Rp. 20.000 gopay
 
 wa.me/${owner[0]}
 *Bukan Bot!!!*
